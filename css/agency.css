@@ -52,7 +52,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 700;
 }
 
@@ -71,7 +71,7 @@ h6 {
 .btn-primary {
     border-color: #9649CB;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #9649CB;
@@ -122,7 +122,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #9649CB;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -175,7 +175,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: 'Righteous', cursive;
     color: #9649CB;
 }
 
@@ -206,7 +206,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -274,14 +274,23 @@ header {
     -o-background-size: cover;
 }
 
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .container {
+    padding-top: 200px;
+    padding-bottom: 25px;
+}
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 00px;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -289,8 +298,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Righteous', cursive;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -298,22 +306,19 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 00px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        margin-bottom: 25px;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -686,28 +691,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -724,7 +729,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Varela Round', sans-serif;
     line-height: 40px;
 }
 
@@ -732,7 +737,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Varela Round', sans-serif;
     line-height: 40px;
 }
 
